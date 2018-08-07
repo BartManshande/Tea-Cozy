@@ -15,6 +15,7 @@ header {
     height: 69px;
     align-items: center;
     z-index: 28465;
+    background-color: black;
 }
 header img {
     height: 50px;
@@ -70,15 +71,28 @@ a {
 }
 #locations {
     background-image: url(../images/img-locations-background.jpg);
-    height: 700px;
+    height: 500px;
     width: 1200px;
     margin: 0 auto;
 }
-.locations {
-    width: 300px;
-    background-color: black;
+#locations h2 {
+    margin-bottom: 0px;
+    padding-top: 50px;
 }
-
+.flex-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.location {
+    background-color: black;
+    opacity: 1.0;
+    padding: 15px;
+    margin: 15px 20px;
+}
+#contact {
+    height: 200px;
+}
 
 
 footer {
